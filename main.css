@@ -1,0 +1,56 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Roboto Mono";
+}
+body button,
+body input {
+  font-family: "Roboto Mono";
+}
+body button {
+  padding: 10px;
+  border: none;
+  background-color: #eeeeee;
+}
+body button:hover {
+  cursor: pointer;
+  background-color: #dddddd;
+}
+body button:active {
+  background-color: #eeeeee;
+}
+body .atm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+body .atm-container .button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+body .atm-container .button-container button {
+  padding: 10px;
+}
+body .atm-container .menu-container {
+  padding: 20px;
+}
+body .atm-container .menu-container .deposit-menu,
+body .atm-container .menu-container .withdraw-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .atm-container .menu-container .deposit-menu .number-form,
+body .atm-container .menu-container .withdraw-menu .number-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+}
+body .atm-container .menu-container .deposit-menu .number-form button,
+body .atm-container .menu-container .withdraw-menu .number-form button {
+  padding: 4px;
+}/*# sourceMappingURL=main.css.map */
